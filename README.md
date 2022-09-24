@@ -6,7 +6,7 @@
 
 ---
 
-<p align="center">Demo of simple 3D animation.</p>
+<p align="center">Demo of simple animation, from static 3D model to an animated video using Blender.</p>
 <br>
 
 <img align='center' src="./assets/demo.gif" width="100%" />
