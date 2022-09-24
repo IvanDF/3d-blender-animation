@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik Dirt", cursive;
+}
+
+.hero {
+  height: 100vh;
+  position: relative;
+  color: rgb(63, 0, 0);
+}
+
+.hero video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.hero h2,
+h3 {
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero h2 {
+  font-size: 5rem;
+}
+
+.hero h3 {
+  font-size: 2.5rem;
+  margin: 5rem 0rem;
+}
